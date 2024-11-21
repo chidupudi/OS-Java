@@ -31,11 +31,12 @@ BasicShellEmulator/
 ├── .gitignore                    # Files to exclude from Git
 ├── README.md                     # Project documentation
 
+---
 
 
 
 
-How to Run
+# How to Run
 Prerequisites
 Java Development Kit (JDK): Version 8 or above
 A terminal or command prompt to execute Java programs
