@@ -23,6 +23,7 @@ public class CommandExecutor {
                 executeSystemCommand(command, currentDir);
         }
 
+        
         return currentDir; // Return the updated directory
     }
 
