@@ -7,7 +7,6 @@ public class CommandExecutor {
         String[] parts = command.split(" ");
         String cmd = parts[0];
         List<String> args = Arrays.asList(parts).subList(1, parts.length);
-
         switch (cmd) {
             case "ls":
                 listFiles(currentDir);
