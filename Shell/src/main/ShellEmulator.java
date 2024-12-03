@@ -1,8 +1,6 @@
 package main;
-
 import java.util.Scanner;
 import utils.CommandExecutor;
-
 public class ShellEmulator {
     
     public static void main(String[] args) {
