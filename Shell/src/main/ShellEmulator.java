@@ -25,7 +25,6 @@ public class ShellEmulator {
                 System.out.println("Error: " + e.getMessage());
             }
         }
-
         scanner.close();
     }
 }

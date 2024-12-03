@@ -21,9 +21,7 @@ public class CommandExecutor {
                 break;
             default:
                 executeSystemCommand(command, currentDir);
-        }
-
-        
+        }  
         return currentDir; // Return the updated directory
     }
 
