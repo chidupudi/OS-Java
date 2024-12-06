@@ -12,15 +12,20 @@ public class CommandExecutor {
                 listFiles(currentDir);
                 break;
             case "cd":
+
                 return changeDirectory(args, currentDir);
             case "mkdir":
+
                 createDirectory(args, currentDir);
                 break;
             case "greet":
+
                 greetCommand(args);
                 break;
+
             default:
                 executeSystemCommand(command, currentDir);
+                
         }  
         return currentDir; // Return the updated directory
     }
