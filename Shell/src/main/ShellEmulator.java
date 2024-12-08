@@ -10,6 +10,7 @@ public class ShellEmulator {
         System.out.println("Type 'exit' to quit.\n");
         while (true) {
             System.out.print(currentDir + " > ");
+
             String input = scanner.nextLine();
             if (input.equalsIgnoreCase("exit")) {
                 System.out.println("Exiting Shell. Goodbye!");
@@ -19,6 +20,7 @@ public class ShellEmulator {
             try {
 
                 currentDir = CommandExecutor.executeCommand(input, currentDir);
+                
             } catch (Exception e) {
                 System.out.println("Error: " + e.getMessage());
             }
