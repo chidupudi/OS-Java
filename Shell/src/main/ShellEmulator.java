@@ -16,16 +16,12 @@ public class ShellEmulator {
                 System.out.println("Exiting Shell. Goodbye!");
                 break;
             }
-
             try {
-
                 currentDir = CommandExecutor.executeCommand(input, currentDir);
                 
             } catch (Exception e) {
                 System.out.println("Error: " + e.getMessage());
             }
-
-
         }
         scanner.close();
     }
